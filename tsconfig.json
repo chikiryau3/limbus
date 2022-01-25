@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node"
+  },
+  "include": [
+    "packages/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@limbus/s-test",
+  "version": "0.0.2",
+  "description": "",
+  "main": "src/index.ts",
+  "files": [
+    "src/"
+  ],
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "Ilya Chernyaev",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@tinkoff/invest-openapi-js-sdk": "^1.2.16",
+    "fastify": "^3.10.1",
+    "fastify-cors": "^5.1.0",
+    "ts-node": "^9.1.1"
+  }
+}
